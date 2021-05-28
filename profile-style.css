@@ -226,6 +226,7 @@ progress::-webkit-progress-bar { background: #e5e5e5;border-radius: 20px; }
     left: 240px;
     height: 100%;
     border: 1px solid #DEDEDE;
+    background-color: #FDFCFC;;
 }
 
 .submenu {
@@ -267,7 +268,7 @@ progress::-webkit-progress-bar { background: #e5e5e5;border-radius: 20px; }
 }
 
 .content {
-    padding: 146px 20px 20px 260px;
+    padding: 146px 20px 20px 504px;
     background-color: yellow;
     height: 100%;
     z-index: 1000;
