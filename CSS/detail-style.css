@@ -183,3 +183,15 @@ progress::-webkit-progress-bar {
     border: none;
     padding: 8px 0px;
 }
+
+#btn-donate {
+    height: 49px;
+    outline: none;
+    border: none;
+    background: #F24444;
+    border-radius: 17px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
