@@ -28,37 +28,48 @@
 <body>
     <main>
         <div class="home-side-bar">
-            <img id="img-logo" src="Assets/logo.png">
-            <div class="home-menu">
-                <div class="home-menu-inner">
-                    <img src="Assets/home.png">
+            <a href="home-donatur.html"><img id="img-logo" src="Assets/logo.png"></a>
+            <a href="home-donatur.html">
+                <div class="home-menu">
+                    <div class="home-menu-inner">
+                        <img src="Assets/home.png">
+                    </div>
+                    <h6>Home</h6>
                 </div>
-                <h6>Home</h6>
-            </div>
+            </a>
             <br><br>
-            <div class="home-menu-transparant">
-                <div class="home-menu-transparant-inner">
-                    <img src="Assets/ic-person-circle.png">
+
+            <a href="profile-donatur.html">
+                <div class="home-menu-transparant">
+                    <div class="home-menu-transparant-inner">
+                        <img src="Assets/ic-person-circle.png">
+                    </div>
+                    <h6>Profile</h6>
                 </div>
-                <h6>Profile</h6>
-            </div>
+            </a>
             <br><br>
-            <div class="home-menu-transparant">
-                <div class="home-menu-transparant-progress-active">
-                    3
+
+            <a href="profile-donatur.html">
+                <div class="home-menu-transparant">
+                    <div class="home-menu-transparant-progress-active">
+                        3
+                    </div>
+                    <progress id="file" value="60" max="100"></progress>
+                    <div class="home-menu-transparant-progress">
+                        4
+                    </div>
                 </div>
-                <progress id="file" value="60" max="100"></progress>
-                <div class="home-menu-transparant-progress">
-                    4
-                </div>
-            </div>
+            </a>
             <br><br>
-            <div class="home-menu-transparant">
-                <div class="home-menu-transparant-inner">
-                    <img src="Assets/ic-reward.png">
+
+            <a href="rewards.html">
+                <div class="home-menu-transparant">
+                    <div class="home-menu-transparant-inner">
+                        <img src="Assets/ic-reward.png">
+                    </div>
+                    <h6>Rewards</h6>
                 </div>
-                <h6>Rewards</h6>
-            </div>
+            </a>
 
             <div class="contact-us">
                 <h5>Customer Service</h5>
@@ -78,17 +89,19 @@
             <div class="header-top">
                 <h1>Hello, Pikri</h1>
                 <div class="search-bar">
-                    <h6>Banjir Ciberon</h6>
-                    <img src="Assets/ic-magnifier.png">
+                    <input type="text" id="search-bar-input" placeholder="Cari donasi...">
+                    <a href="search.html"><img src="Assets/ic-magnifier.png"></a>
                 </div>
                 <label class="switch">
-                    <input type="checkbox" checked>
+                    <input id="switch-checkbox" type="checkbox" checked>
                     <span class="slider round"></span>
                 </label>
                 <h5>Donatur</h5>
-                <div class="notification">
-                    <img id="notif-img" src="Assets/alert.png">
-                </div>
+                <a href="profile-notifications.html">
+                    <div class="notification">
+                        <img id="notif-img" src="Assets/alert.png">
+                    </div>
+                </a>
             </div>
             <div class="welcome">Welcome Back</div>
             <div class="blue-separator-line"></div>

@@ -1,0 +1,89 @@
+.content-wrapper {
+    padding: 40px 80px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h2 {
+    font-weight: bolder;
+}
+
+.view-more {
+    display: flex;
+}
+
+.view-more h3 {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.charity-item {
+    height: 220px;
+    background: #FFFFFF;
+    border: 3px solid #4D80E4;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charity-item .paragraph {
+    padding: 17px 22px 17px 40px;
+}
+
+.charity-item .paragraph h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.charity-item .paragraph p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: justify;
+    
+    color: #000000;
+}
+
+.charity-item .image {
+    display: flex;
+}
+
+.charity-item .thumbnail {
+    margin: 17px 0px;
+}
+
+.charity-item .double-arrow {
+    width: 100px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+.charity-target {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charity-target h3 {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+
+    color: #4D80E4;
+}
+
+.charity-target p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #B0AAAA !important;
+}
