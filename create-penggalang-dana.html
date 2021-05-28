@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home-style.css">
+    <link rel="stylesheet" href="create-penggalang-dana-style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <script src="JS/header.js"></script>
+
+    <title>DonateKUY</title>
+</head>
+
+<body>
+    <main>
+        <div class="home-side-bar">
+            <a href="home-donatur.html"><img id="img-logo" src="Assets/logo.png"></a>
+            <a href="home-donatur.html">
+                <div class="home-menu">
+                    <div class="home-menu-inner">
+                        <img src="Assets/home.png">
+                    </div>
+                    <h6>Home</h6>
+                </div>
+            </a>
+            <br><br>
+
+            <a href="profile-donatur.html">
+                <div class="home-menu-transparant">
+                    <div class="home-menu-transparant-inner">
+                        <img src="Assets/ic-person-circle.png">
+                    </div>
+                    <h6>Profile</h6>
+                </div>
+            </a>
+            <br><br>
+
+            <a href="profile-donatur.html">
+                <div class="home-menu-transparant">
+                    <div class="home-menu-transparant-progress-active">
+                        3
+                    </div>
+                    <progress id="file" value="60" max="100"></progress>
+                    <div class="home-menu-transparant-progress">
+                        4
+                    </div>
+                </div>
+            </a>
+            <br><br>
+
+            <a href="rewards.html">
+                <div class="home-menu-transparant">
+                    <div class="home-menu-transparant-inner">
+                        <img src="Assets/ic-reward.png">
+                    </div>
+                    <h6>Rewards</h6>
+                </div>
+            </a>
+
+            <div class="contact-us">
+                <h5>Customer Service</h5>
+                <div class="item">
+                    <img src="Assets/ic-phone.png">+62 123 4567
+                </div>
+                <div class="item">
+                    <img src="Assets/ic-mail.png">donate.kuy@gmail.com
+                </div>
+                <span>
+                    Donate Kuy 2021. All right reserved
+                </span>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="header-top">
+                <h1>Hello, Pikri</h1>
+                <div class="search-bar">
+                    <input type="text" id="search-bar-input" placeholder="Cari donasi...">
+                    <a href="search.html"><img src="Assets/ic-magnifier.png"></a>
+                </div>
+                <label class="switch">
+                    <input id="switch-checkbox" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+                <h5>Donatur</h5>
+                <a href="profile-notifications.html">
+                    <div class="notification">
+                        <img id="notif-img" src="Assets/alert.png">
+                    </div>
+                </a>
+            </div>
+            <div class="welcome">Welcome Back</div>
+            <div class="blue-separator-line"></div>
+        </div>
+
+        <div class="content">
+            <div class="container pt-3 px-5">
+                <div class="row">
+                    <div class="col">
+                        <p class="bd-text">Buat Donasi</p>
+                    </div>
+                </div>
+
+                <div class="row border-image mb-3">
+                    <div class="col p-3">
+                        <div class="row">
+                            <div class="col">
+                                <p class="bd-text1">Gambar Donasi<span style="color: red;">*</span></p>
+                            </div>
+                        </div>
+                        <div class="row p-5">
+                            <div class="col text-center">
+                                <img src="Assets/Rectangle 33.png" alt="camera" width="70px">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 offset-5 text-center">
+                                <p class="gambar-btn">+ Pilih Gambar</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 offset-4 text-center">
+                                <p class="text-btn ">Tambahkan hingga 5 gambar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row border-image mb-3">
+                    <div class="col p-3">
+                        <div class="row">
+                            <div class="col">
+                                <p class="bd-text1">Informasi Donasi</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col ">
+                                <p class="label-name d-inline">Kategori<span style="color: red;">*</span></p>
+                                <div class="border-input p-2">
+                                    <p class="d-inline p-3 text-grey">Pilih Kategori</p>
+                                    <img src="Assets/eva_arrow.png" alt="arrow" class="d-inline" style="float: right;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col ">
+                                <p class="label-name d-inline">Judul Penggalangan Dana<span style="color: red;">*</span>
+                                </p>
+                                <p class="d-inline" style="float: right;">0/50</p>
+                                <div class="border-input p-2">
+                                    <p class="d-inline p-3 text-grey">Contoh: Bantu Korban Bencana Banjir Sulteng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col ">
+                                <p class="label-name d-inline">Deskripsi<span style="color: red;">*</span>
+                                </p>
+                                <p class="d-inline" style="float: right;">0/1000</p>
+                                <div class="border-input p-2 height-border">
+                                    <p class="d-inline p-3 text-grey">Menceritakan kejadian bencana (Korban Jiwa,
+                                        korban Luka-luka, Rumah Rusan,Dan Lain-lain)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row border-image mb-3">
+                    <div class="col p-3">
+                        <div class="row">
+                            <div class="col">
+                                <p class="bd-text1">Lainnya</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col ">
+                                <p class="label-name d-inline">Target Donasi<span style="color: red;">*</span></p>
+                                <div class="row">
+                                    <div class="col-1 border-input p-2 mx-3  text-center">
+                                        <p class="d-inline">Rp</p>
+                                    </div>
+                                    <div class="col border-input p-2 me-2">
+                                        <p class="d-inline text-grey">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col ">
+                                <p class="label-name d-inline">Batas Waktu Donasi<span style="color: red;">*</span></p>
+                                <div class="border-input p-2">
+                                    <p class="d-inline p-3 text-grey">Pilih Tanggal</p>
+                                    <img src="Assets/eva_arrow.png" alt="arrow" class="d-inline" style="float: right;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-3 text-center">
+                        <img src="Assets/Group 21.png" alt="qrCode">
+                    </div>
+                    <div class="col-4 vertical-center text-center">
+                        <p class="gambar-btn-1">Generate QR Code</p>
+                        <p class="text-btn">QR digunakan sebagai link donasi</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-4 offset-4 text-center">
+                        <p class="gambar-btn-3">Buat Donasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

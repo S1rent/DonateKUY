@@ -1,0 +1,64 @@
+.bd-text {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.bd-text1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.border-image {
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+}
+
+.gambar-btn {
+  background-color: #7aa8f4;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.text-btn {
+  background-color: #efedb4;
+}
+
+.label-name {
+  font-weight: 500;
+}
+
+.border-input {
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+
+.height-border {
+  height: 200px;
+}
+
+.vertical-center {
+  align-self: center;
+}
+
+.gambar-btn-1 {
+  background-color: #7aa8f4;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.gambar-btn-3 {
+  background-color: #4d80e4;
+  color: white;
+  font-size: 25;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.text-grey {
+  color: grey;
+}
