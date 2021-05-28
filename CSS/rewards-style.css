@@ -1,0 +1,62 @@
+.reward-item {
+    background: #FFFFFF;
+    border: 2px solid #4D80E4;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.special {
+    border: 2px solid orange !important;
+}
+
+.reward-item h3 {
+    font-weight: bolder;
+}
+
+.reward-item p {
+    margin: 0 auto;
+    font-size: 15px;
+    color: #868686;
+}
+
+.claimed {
+    background: #ACACAC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 30px;
+    font-weight: bolder;
+    width: 130px !important;
+}
+
+.claimed button {
+    outline: none;
+    border: none;
+}
+
+.unclaimed {
+    background: #4D80E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 30px;
+    font-weight: bolder;
+    width: 130px !important;
+}
+
+.unclaimed button {
+    outline: none;
+    border: none;
+}
+
+.special-button {
+    background-image: linear-gradient(to left, #f2400d, #fff32a) !important;
+}
