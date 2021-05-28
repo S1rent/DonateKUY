@@ -32,6 +32,7 @@
 .border-input {
   border: 1px solid #dbdbdb;
   border-radius: 10px;
+  margin-right: 10px;
 }
 
 .height-border {
@@ -61,4 +62,12 @@
 
 .text-grey {
   color: grey;
+}
+
+.butt-red {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 20px;
 }
