@@ -282,6 +282,88 @@ progress::-webkit-progress-bar { background: #e5e5e5;border-radius: 20px; }
     width: 100%;
 }
 
+.profile-container {
+
+}
+
+.profile-card {
+    width: 30%;
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    text-align: center;
+}
+
+#avatar {
+    margin-top: 30px;
+}
+
+.profile-info {
+    width: 68%;
+}
+
+.profile-card progress {
+    color: #4d80e4;
+    background: #4d80e4;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 20px !important;
+    width: 100%;
+  }
+  
+progress::-webkit-progress-value {
+    background: #4d80e4;
+    border-radius: 20px;
+}
+progress::-webkit-progress-bar {
+    background: #e5e5e5;
+    border-radius: 20px;
+}
+
+.balance-section {
+    padding: 0px 31px 31px 31px;
+}
+
+.balance-cell {
+    background: #4D80E4;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-deposit {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 10px;
+    color: #4D80E4;
+    font-size: 18px;
+}
+
+#btn-edit-profile {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 10px;
+    color: white;
+    background-color: #4D80E4;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 /*Toggler*/
 .switch {
     position: relative;
