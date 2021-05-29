@@ -87,3 +87,11 @@
 .container textarea {
   width: 98%;
 }
+
+.row {
+  width: auto;
+}
+
+label {
+  font-weight: 600;
+}

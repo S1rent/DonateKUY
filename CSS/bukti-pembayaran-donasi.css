@@ -1,0 +1,25 @@
+.border-image {
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+}
+
+.row {
+  width: auto;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+.bold-text-1 {
+  font-weight: 600;
+}
+
+.bold-text p {
+  font-weight: bold;
+}
+
+.btn {
+  width: 400px;
+  font-weight: bold;
+  border-radius: 20px;
+}
