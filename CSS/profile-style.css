@@ -364,6 +364,21 @@ progress::-webkit-progress-bar {
     font-weight: bolder;
 }
 
+.edit-profile-section input {
+    background: #FFFFFF;
+    border: 1px solid #7AA8F4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+}
+
+.edit-profile-section input:focus {
+    border: 3px solid #7AA8F4;
+}
+
+
 /*Toggler*/
 .switch {
     position: relative;
