@@ -116,119 +116,130 @@
                         <p class="bd-text">Buat Donasi</p>
                     </div>
                 </div>
-
-                <div class="row border-image mb-3">
-                    <div class="col p-3">
-                        <div class="row">
-                            <div class="col">
-                                <p class="bd-text1">Gambar Donasi<span style="color: red;">*</span></p>
-                            </div>
-                        </div>
-                        <div class="row p-5">
-                            <div class="col text-center">
-                                <img src="Assets/Rectangle 33.png" alt="camera" width="70px">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2 offset-5 text-center">
-                                <p class="gambar-btn">+ Pilih Gambar</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 offset-4 text-center">
-                                <p class="text-btn">Tambahkan hingga 5 gambar</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row border-image mb-3">
-                    <div class="col p-3">
-                        <div class="row">
-                            <div class="col">
-                                <p class="bd-text1">Informasi Donasi</p>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col ">
-                                <p class="label-name d-inline">Kategori<span style="color: red;">*</span></p>
-                                <div class="border-input p-2">
-                                    <p class="d-inline p-3 text-grey">Pilih Kategori</p>
-                                    <img src="Assets/eva_arrow.png" alt="arrow" class="d-inline" style="float: right;">
+                <form action="">
+                    <div class="row border-image mb-3">
+                        <div class="col p-3">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="bd-text1">Gambar Donasi<span style="color: red;">*</span></p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col ">
-                                <p class="label-name d-inline">Judul Penggalangan Dana<span style="color: red;">*</span>
-                                </p>
-                                <p class="d-inline me-4" style="float: right;">0/50</p>
-                                <div class="border-input p-2">
-                                    <p class="d-inline p-3 text-grey">Contoh: Bantu Korban Bencana Banjir Sulteng</p>
+                            <div class="row p-5">
+                                <div class="col text-center">
+                                    <img src="Assets/Rectangle 33.png" alt="camera" width="70px">
                                 </div>
                             </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col ">
-                                <p class="label-name d-inline">Deskripsi<span style="color: red;">*</span>
-                                </p>
-                                <p class="d-inline me-4" style="float: right;">0/1000</p>
-                                <div class="border-input p-2 height-border">
-                                    <p class="d-inline p-3 text-grey">Menceritakan kejadian bencana (Korban Jiwa,
-                                        korban Luka-luka, Rumah Rusan,Dan Lain-lain)</p>
+                            <div class="row">
+                                <div class="col-2 offset-5 text-center">
+                                    <p class="gambar-btn">+ Pilih Gambar</p>
+                                    <!-- <input type="file" class="gambar-btn"> -->
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 offset-4 text-center">
+                                    <p class="text-btn">Tambahkan hingga 5 gambar</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="row border-image mb-3">
-                    <div class="col p-3">
-                        <div class="row">
-                            <div class="col">
-                                <p class="bd-text1">Lainnya</p>
+                    <div class="row border-image mb-3">
+                        <div class="col p-3">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="bd-text1">Informasi Donasi</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col ">
+                                    <label for="kategori">Kategori<span style="color: red;">*</span></label>
+                                    <select class="form-select" id="kategori" aria-label="Default select example"
+                                        required>
+                                        <option selected>Pilih Kategori</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col ">
+                                    <label for="judul" class="form-label mb-0">Judul Penggalangan
+                                        Dana<span style="color: red;">*</span></label>
+                                    <p class="me-4 mb-0" style="float: right;">0/50</p>
+                                    <input type="text" class="form-control" id="judul" aria-describedby="emailHelp"
+                                        placeholder="Contoh: Bantu Korban Bencana Banjir Sulteng" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col ">
+                                    <label for="exampleFormControlTextarea1" class="form-label mb-0">Deskripsi<span
+                                            style="color: red;">*</span></label>
+                                    <p class="d-inline me-4 mb-0" style="float: right;">0/1000</p>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                        style="resize: none;"
+                                        placeholder="Menceritakan kejadian bencana (Korban  Jiwa, korban Luka-luka, Rumah  Rusan,Dan Lain-lain)"></textarea>
+                                </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col ">
-                                <p class="label-name d-inline">Target Donasi<span style="color: red;">*</span></p>
-                                <div class="row">
-                                    <div class="col-1 border-input p-2 mx-3  text-center">
-                                        <p class="d-inline">Rp</p>
+                    </div>
+
+                    <div class="row border-image mb-3">
+                        <div class="col p-3">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="bd-text1">Lainnya</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col ">
+                                    <label for="target" class="form-label mb-0">Target Donasi<span
+                                            style="color: red;">*</span></label>
+                                    <div class="row">
+                                        <div class="col-1 border-input p-2 mx-3  text-center">
+                                            <p class="d-inline">Rp</p>
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control d-inline" id="target"
+                                                aria-describedby="emailHelp" placeholder="0" required>
+                                        </div>
                                     </div>
-                                    <div class="col border-input p-2 me-4">
-                                        <p class="d-inline text-grey">0</p>
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col ">
-                                <p class="label-name d-inline">Batas Waktu Donasi<span style="color: red;">*</span></p>
-                                <div class="border-input p-2">
-                                    <p class="d-inline p-3 text-grey">Pilih Tanggal</p>
-                                    <img src="Assets/eva_arrow.png" alt="arrow" class="d-inline" style="float: right;">
+                            <div class="row mb-3">
+                                <div class="col ">
+                                    <!-- <p class="label-name d-inline">Batas Waktu Donasi<span style="color: red;">*</span>
+                                    </p>
+                                    <div class="border-input p-2">
+                                        
+                                        <p class="d-inline p-3 text-grey">Pilih Tanggal</p>
+                                        <img src="Assets/eva_arrow.png" alt="arrow" class="d-inline"
+                                            style="float: right;">
+                                    </div> -->
+                                    <label for="date" class="form-label mb-0">Batas Waktu Donasi<span
+                                            style="color: red;">*</span></label>
+                                    <input type="date" class="form-control" id="date" required>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row mb-3">
-                    <div class="col-3 text-center">
-                        <img src="Assets/Group 21.png" alt="qrCode">
+                    <div class="row mb-3">
+                        <div class="col-3 text-center">
+                            <img src="Assets/Group 21.png" alt="qrCode">
+                        </div>
+                        <div class="col-4 vertical-center text-center">
+                            <p class="gambar-btn-1">Generate QR Code</p>
+                            <p class="text-btn">QR digunakan sebagai link donasi</p>
+                        </div>
                     </div>
-                    <div class="col-4 vertical-center text-center">
-                        <p class="gambar-btn-1">Generate QR Code</p>
-                        <p class="text-btn">QR digunakan sebagai link donasi</p>
+                    <div class="row mb-3">
+                        <div class="col-4 offset-4 text-center">
+                            <p class="gambar-btn-3">Buat Donasi</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-4 offset-4 text-center">
-                        <p class="gambar-btn-3">Buat Donasi</p>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
 

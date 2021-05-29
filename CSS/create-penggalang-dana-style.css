@@ -19,6 +19,7 @@
   font-weight: bold;
   padding: 10px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .text-btn {
@@ -49,6 +50,7 @@
   font-weight: bold;
   padding: 10px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .gambar-btn-3 {
@@ -58,6 +60,7 @@
   font-weight: bold;
   padding: 10px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .text-grey {
@@ -70,4 +73,17 @@
   font-weight: bold;
   padding: 15px;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+.container input {
+  width: 98%;
+}
+
+.container select {
+  width: 98%;
+}
+
+.container textarea {
+  width: 98%;
 }

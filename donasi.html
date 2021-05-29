@@ -126,19 +126,25 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Ditujukan<span style="color: red;">*</span></p>
+                                <!-- <p class="label-name d-inline">Ditujukan<span style="color: red;">*</span></p>
                                 <div class="border-input p-2">
                                     <p class="d-inline p-3 text-grey ">Korban Banjir Kota Ciberon</p>
-                                </div>
+                                </div> -->
+                                <label for="ditujukan" class="form-label mb-0">Ditujukan</label>
+                                <input type="text" class="form-control" id="ditujukan"
+                                    placeholder="Korban Banjir Kota Ciberon" required>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Penggalang</span>
+                                <!-- <p class="label-name d-inline">Penggalang</span>
                                 </p>
                                 <div class="border-input p-2">
                                     <p class="d-inline p-3 text-grey">Yayasan SayaBisa</p>
-                                </div>
+                                </div> -->
+                                <label for="penggalang" class="form-label mb-0">Penggalang</label>
+                                <input type="text" class="form-control" id="penggalang" placeholder="Yayasan SayaBisa"
+                                    required>
                             </div>
                         </div>
                     </div>
@@ -152,31 +158,33 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Nama<span style="color: red;">*</span></p>
+                                <!-- <p class="label-name d-inline">Nama<span style="color: red;">*</span></p>
                                 <div class="border-input p-2">
                                     <p class="d-inline p-3 text-grey">...</p>
-                                </div>
+                                </div> -->
+                                <label for="nama" class="form-label mb-0">Nama<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" id="nama" placeholder="..." required>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Nomor Seluler<span style="color: red;">*</span></p>
+                                <label for="nomor" class="form-label mb-0">Nomor Seluler<span
+                                        style="color: red;">*</span></label>
                                 <div class="row">
                                     <div class="col-1 border-input p-2 mx-3  text-center">
                                         <p class="d-inline">+62</p>
                                     </div>
-                                    <div class="col border-input p-2 me-4">
-                                        <p class="d-inline text-grey">...</p>
+                                    <div class="col">
+                                        <input type="number" class="form-control" id="nomor" placeholder="..." required>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Email<span style="color: red;">*</span></p>
-                                <div class="border-input p-2">
-                                    <p class="d-inline p-3 text-grey">...</p>
-                                </div>
+                                <label for="email" class="form-label mb-0">Email<span
+                                        style="color: red;">*</span></label>
+                                <input type="email" class="form-control" id="email" placeholder="..." required>
                             </div>
                         </div>
                     </div>
@@ -191,19 +199,31 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Jumlah<span style="color: red;">*</span></p>
+                                <!-- <p class="label-name d-inline">Jumlah<span style="color: red;">*</span></p>
                                 <div class="border-input p-2">
                                     <p class="d-inline p-3 text-grey">Jumlah yang ingin anda donasikan</p>
-                                </div>
+                                </div> -->
+                                <label for="jumlah" class="form-label mb-0">Jumlah<span
+                                        style="color: red;">*</span></label>
+                                <input type="number" class="form-control" id="jumlah"
+                                    placeholder="Jumlah yang ingin anda donasikan" required>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col ">
-                                <p class="label-name d-inline">Metode<span style="color: red;">*</span></p>
+                                <!-- <p class="label-name d-inline">Metode<span style="color: red;">*</span></p>
                                 <div class="border-input p-2">
                                     <p class="d-inline p-3 text-grey">Pilih Metode Pemnbayaran</p>
                                     <img src="Assets/eva_arrow.png" alt="arrow" class="d-inline" style="float: right;">
-                                </div>
+                                </div> -->
+                                <label for="metode" class="form-label mb-0">Metode<span
+                                        style="color: red;">*</span></label>
+                                <select class="form-select" id="metode" aria-label="Default select example" required>
+                                    <option selected>Pilih Metode Pembayaran</option>
+                                    <option value="1">Dana</option>
+                                    <option value="2">Ovo</option>
+                                    <option value="3">Gopay</option>
+                                </select>
                             </div>
                         </div>
                     </div>
