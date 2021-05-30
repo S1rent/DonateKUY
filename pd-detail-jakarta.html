@@ -37,25 +37,17 @@
                     <div class="home-menu-inner">
                         <img src="Assets/home.png">
                     </div>
-                    <<<<<<< Updated upstream </a>
-
-                        <div class="contact-us">
-                            <h5>Pelayanan Pelanggan</h5>
-                            <div class="item">
-                                <img src="Assets/ic-phone.png">+62 123 4567
-                                =======
-                                <h6>Home</h6>
-                            </div>
+                    <h6>Home</h6>
+                </div>
             </a>
             <br><br>
 
-            <a href="profile-donatur.html">
+            <a href="profile-pd.html">
                 <div class="home-menu-transparant">
                     <div class="home-menu-transparant-inner">
                         <img src="Assets/ic-person-circle.png">
-                        >>>>>>> Stashed changes
                     </div>
-                    <h6>Profile</h6>
+                    <h6>Profil</h6>
                 </div>
             </a>
             <br><br>
@@ -65,11 +57,7 @@
                     <div class="home-menu-transparant-inner">
                         <img src="Assets/ic-pencil-fill.png">
                     </div>
-                    <<<<<<< Updated upstream <span>
-                        Donate Kuy 2021. Hak cipta dilindungi undang-undang
-                        </span>
-                        =======
-                        <h6>Buat</h6>
+                    <h6>Buat</h6>
                 </div>
             </a>
 
@@ -80,10 +68,9 @@
                 </div>
                 <div class="item">
                     <img src="Assets/ic-mail.png">donate.kuy@gmail.com
-                    >>>>>>> Stashed changes
                 </div>
                 <span>
-                    Donate Kuy 2021. Hak cipta dilindungi Undang-undang
+                    Donate Kuy 2021. Hak cipta dilindungi undang-undang
                 </span>
             </div>
         </div>
@@ -236,8 +223,8 @@
                 </div>
 
                 <div id="pd-action" style="text-align: center;">
-                    <button id="btn-edit">UBAH POST</button><br><br>
-                    <button id="btn-delete">HAPUS POST</button>
+                    <a href="edit-penggalang-dana.html"><button id="btn-edit">UBAH POST</button> </a><br><br>
+                    <button id="btn-delete" onclick="showAlert()">HAPUS POST</button>
                 </div>
             </div>
         </div>
@@ -274,6 +261,10 @@
                 emt.style.height = '0px';
             }
         })
+
+        function showAlert() {
+            confirm("Hapus Donasi ?");
+        }
     </script>
 
 </body>

@@ -45,7 +45,7 @@
                     <div class="home-menu-transparant-inner">
                         <img src="Assets/ic-person-circle.png">
                     </div>
-                    <h6>Profile</h6>
+                    <h6>Profil</h6>
                 </div>
             </a>
             <br><br>
@@ -215,8 +215,8 @@
                 </div>
 
                 <div id="pd-action" style="text-align: center;">
-                    <button id="btn-edit">UBAH POST</button><br><br>
-                    <button id="btn-delete">HAPUS POST</button>
+                    <a href="edit-penggalang-dana.html"><button id="btn-edit">UBAH POST</button></a><br><br>
+                    <button id="btn-delete" onclick="showAlert()">HAPUS POST</button>
                 </div>
             </div>
         </div>
@@ -236,6 +236,10 @@
                 emt.style.height = '0px';
             }
         })
+
+        function showAlert() {
+            confirm("Hapus Donasi ?");
+        }
     </script>
 
 </body>
