@@ -10,10 +10,12 @@
         <link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/detail-style.css">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
         <script src="JS/header.js"></script>
+        <script src="JS/detail.js"></script>
 
         <title>DonateKUY</title>
     </head>
@@ -144,7 +146,7 @@
 
                     <div class="bukti-pengiriman">
                         <p>Donasi sudah kami terima dan akan dikirimkan kepada korban. Tekan tombol untuk melihat rincian pengiriman donasi.</p>
-                        <button>Bukti Pengiriman Donasi</button>
+                        <button id="btn-show-receipt">Bukti Pengiriman Donasi</button>
                     </div>
 
                     <div class="donation-list">
@@ -218,6 +220,24 @@
                         <button id="btn-edit">UBAH POST</button><br><br>
                         <button id="btn-delete">HAPUS POST</button>
                     </div>
+                </div>
+            </div>
+
+
+            <div class="agreement-modal"></div>
+
+            <div class="agreement-modal-content">
+                <div class="agreement-modal-content-header">
+                    <button id="close-modal-button"></button>
+                    <h1>User Agreement</h1>
+                    <div style="margin: 0 auto; width: 100% !important;background-color: #e6e6e6;height: 4px;"></div>
+                </div>
+                <div class="agreement-modal-content-content">
+                    <img src="Assets/img-receipt.png">
+                    <p style="font-weight: bold;">
+                        <br>
+                        Foto bukti pengiriman hasil donasi kepada korban <i>*SETELAH DIPOTONG UNTUK BIAYA ADMINISTRASI
+                    </p>
                 </div>
             </div>
 
