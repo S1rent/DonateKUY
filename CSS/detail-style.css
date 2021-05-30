@@ -102,19 +102,22 @@ progress::-webkit-progress-bar {
     border: 1px solid #C5C5C5;
     box-sizing: border-box;
     margin: 20px;
+}
+
+.d-list {
     max-height: 450px !important;
     overflow-y: auto;
 }
 
-.donation-list::-webkit-scrollbar-thumb {
+.d-list::-webkit-scrollbar-thumb {
     background: #4D80E4;
 }
 
-.donation-list::-webkit-scrollbar-track {
+.d-list::-webkit-scrollbar-track {
     background: #c1c1c1;
 }
 
-.donation-list::-webkit-scrollbar {
+.d-list::-webkit-scrollbar {
     width: 10px;
 }
 
