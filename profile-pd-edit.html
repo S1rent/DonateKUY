@@ -10,9 +10,11 @@
         <link rel="stylesheet" href="CSS/profile-style.css">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
         <script src="JS/header.js"></script>
+        <script src="JS/edit.js"></script>
 
         <title>DonateKUY</title>
     </head>
@@ -112,45 +114,39 @@
             </div>
 
             <div class="content" style="background-color: white;">
-                <div style="color: black;">
-                    <h1 style="font-weight: bolder;">Profile</h1>
-                    <div class="profile-container">
-                        <div class="profile-card">
-                            <img id="avatar" src="Assets/img-person.png" style="width: 160px !important; height: 160px !important;">
-                            <p style="font-size: 18px;color: #6B6B6B;">Tanggal Bergabung: 27 Mei 2021</p>
+                <div style="color: black; padding: 50px !important;">
+                    <h1 style="font-weight: bolder;">Edit Profile</h1>
+                    <div class="profile-container" style="display: block !important; text-align: center !important;">
+                        <div style="width: auto;">
+                            <input type="file" id="imgupload" style="display:none"/> 
+                            <img id="avatar" src="Assets/img-person.png" style="width: 220px !important; height: 220px !important; cursor: pointer;">
+                            <div id="pencil-icon" style="position: absolute; background: #4D80E4; width: 30px; height: 30px; border-radius: 50%; right: 33%;margin-top: -50px;">
+                                <img src="Assets/ic-pencil.png" style="width: 20px; height: 20px;cursor: pointer;">
+                            </div><br><br>
+                        </div>
+                        <div class="edit-profile-section" style="text-align: left;">
+                            <div style="display: flex;">
 
-                            <br><br><br>
-                            <div class="balance-section">
-                                <h2 style="color: #6b6b6b; text-align: left;">Saldo</h2>
-
-                                <div class="balance-cell">
-                                    <h3 style="color: white; font-weight: bolder;margin-bottom: 0px !important;">Rp 5.300.000</h3>
-                                </div>
-                                <br>
-                                <button id="btn-deposit">Tarik Saldo</button>
                             </div>
+
+                            <label for="name" style="color: #A09F9F; font-weight: bolder; padding-bottom: 10px;">Email</label><br>
+                            <input type="text">
+                            <br><br>
+
+                            <label for="name" style="color: #A09F9F; font-weight: bolder; padding-bottom: 10px;">Nomor Telepon</label><br>
+                            <input type="text">
+                            <br><br>
+
+                            <div>
+                                <label for="name" style="color: #A09F9F; font-weight: bolder; padding-bottom: 10px;">Kata Sandi</label><br>
+                                <img id="show-password" style="position: absolute; right: 80px;margin-top: 8px;cursor: pointer;" src="Assets/icn-show-password.png">
+                                <input id="password-field" type="password">
+                                <br><br>
+                            </div>
+                                
+                            <button id="btn-edit-profile" style="margin-top: 50px !important;">Simpan</button>
                         </div>
-
-                        <div class="profile-info">
-                            <label for="name" style="color: #A09F9F;font-weight: bolder;padding-bottom: 10px;">Nama Depan</label>
-                            <p>Robert</p>
-                            <hr><br>
-
-                            <label for="name" style="color: #A09F9F;font-weight: bolder;padding-bottom: 10px;">Nama Belakang</label>
-                            <p>Mulawarman</p>
-                            <hr><br>
-
-                            <label for="name" style="color: #A09F9F;font-weight: bolder;padding-bottom: 10px;">Email</label>
-                            <p>robert.mwm@sunib.ac.id</p>
-                            <hr><br>
-
-                            <label for="name" style="color: #A09F9F;font-weight: bolder;padding-bottom: 10px;">Nomor Telepon</label>
-                            <p>0812-3456-7238</p>
-                            <hr><br>
-                            <a href="profile-pd-edit.html">
-                                <button id="btn-edit-profile">Ubah Profile</button>
-                            </a>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
