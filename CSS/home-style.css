@@ -1,180 +1,202 @@
 .content-wrapper {
-    padding: 40px 80px;
+  padding: 40px 80px;
 }
 
 .title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title h2 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .view-more {
-    display: flex;
+  display: flex;
 }
 
 .view-more h3 {
-    margin-top: 5px;
-    width: 100%;
+  margin-top: 5px;
+  width: 100%;
 }
 
 .charity-item {
-    height: 220px;
-    background: #FFFFFF;
-    border: 3px solid #4D80E4;
-    box-sizing: border-box;
-    border-radius: 12px;
-    display: flex;
-    justify-content: space-between;
+  height: 220px;
+  background: #ffffff;
+  border: 3px solid #4d80e4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .charity-item .paragraph {
-    padding: 17px 22px 17px 40px;
+  padding: 17px 22px 17px 40px;
 }
 
 .charity-item .paragraph h2 {
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .charity-item .paragraph p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 17px;
-    text-align: justify;
-    
-    color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: justify;
+
+  color: #000000;
 }
 
 .charity-item .image {
-    display: flex;
+  display: flex;
 }
 
 .charity-item .thumbnail {
-    margin: 17px 0px;
+  margin: 17px 0px;
 }
 
 .charity-item .double-arrow {
-    width: 100px;
-    height: 80px;
-    margin-top: 60px;
+  width: 100px;
+  height: 80px;
+  margin-top: 60px;
 }
 
 .charity-target {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .charity-target h3 {
-    font-style: normal;
-    font-weight: bold;
-    line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
 
-    color: #4D80E4;
+  color: #4d80e4;
 }
 
 .charity-target p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: right;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
 
-    color: #B0AAAA !important;
+  color: #b0aaaa !important;
 }
 
 .status {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 
-    color: #000000;
+  color: #000000;
 }
 
 .paragraph progress {
-    color: #4d80e4;
-    background: #4d80e4;
-    border-radius: 50%;
-    width: 100%;
-    height: 10px !important;
+  color: #4d80e4;
+  background: #4d80e4;
+  border-radius: 50%;
+  width: 100%;
+  height: 10px !important;
 }
 
 progress::-webkit-progress-value {
-    background: #4d80e4;
-    border-radius: 20px;
+  background: #4d80e4;
+  border-radius: 20px;
 }
 progress::-webkit-progress-bar {
-    background: #e5e5e5;
-    border-radius: 20px;
+  background: #e5e5e5;
+  border-radius: 20px;
 }
 
 .status {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content-text-1 {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .row {
-    width: 1080px;
+  width: 1080px;
 }
 
 .content-text-2 {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .box-filter {
-    border: 1px solid #4d80e4;
-    border-radius: 6px;
+  border: 1px solid #4d80e4;
+  border-radius: 6px;
 }
 
 .text-width {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .box-filter1 {
-    border: 4px solid #4d80e4;
-    border-radius: 12px;
+  border: 4px solid #4d80e4;
+  border-radius: 12px;
 }
 
 .judul-bencana {
-    font-weight: bold;
-    font-size: 30px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .vertical-center {
-    align-self: center;
+  align-self: center;
 }
 
 .harga {
-    font-size: 20px;
-    font-weight: bold;
-    color: #4d80e4;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4d80e4;
 }
 
 .target {
-    color: rgb(168, 166, 166);
-    font-size: 14px;
+  color: rgb(168, 166, 166);
+  font-size: 14px;
 }
 
 .day b {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .size {
-    font-size: 20px;
+  font-size: 20px;
 }
-  
+
 .filter {
-    display: flex;
+  display: flex;
+}
+
+.screenshot img {
+  vertical-align: middle;
+}
+
+.screenshot img:hover {
+  transform: scale(1.5);
+}
+
+.screenshot {
+  padding: 5px;
+}
+
+.box img {
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
 }

@@ -1,273 +1,295 @@
 .content-wrapper {
-    padding: 40px 80px;
+  padding: 40px 80px;
 }
 
 .content-detail {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content-detail .paragraph {
-    width: 60%;
-    padding: 20px;
+  width: 60%;
+  padding: 20px;
 }
 
 .content-detail .galery {
-    width: 40%;
-    padding: 20px;
+  width: 40%;
+  padding: 20px;
 }
 
 .content-detail .paragraph h2 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .content-detail .paragraph h6 {
-    color: #BDBDBD;
+  color: #bdbdbd;
 }
 
 .content-detail .galery .image img {
-    width: 100%;
+  width: 100%;
 }
 
 .mini-galery {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
 }
 
 .mini-galery img {
-    width: 69px !important;
-    height: 69px !important;
-    border-radius: 13px;
-    margin-right: 15px;
+  width: 69px !important;
+  height: 69px !important;
+  border-radius: 13px;
+  margin-right: 15px;
 }
 
 .charity-target {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .charity-target h3 {
-    font-style: normal;
-    font-weight: bold;
-    line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
 
-    color: #4D80E4;
+  color: #4d80e4;
 }
 
 .charity-target p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: right;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
 
-    color: #B0AAAA !important;
+  color: #b0aaaa !important;
 }
 
 .status {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 progress {
-    color: #4d80e4;
-    background: #4d80e4;
-    border-radius: 50%;
-    width: 100%;
-    height: 10px !important;
+  color: #4d80e4;
+  background: #4d80e4;
+  border-radius: 50%;
+  width: 100%;
+  height: 10px !important;
 }
 
 progress::-webkit-progress-value {
-    background: #4d80e4;
-    border-radius: 20px;
+  background: #4d80e4;
+  border-radius: 20px;
 }
 progress::-webkit-progress-bar {
-    background: #e5e5e5;
-    border-radius: 20px;
+  background: #e5e5e5;
+  border-radius: 20px;
 }
 
 .status-progress {
-    display: block;
-    width: 50%;
+  display: block;
+  width: 50%;
 }
 
 .status-status {
-    text-align: right;
-    display: block;
-    width: 50%;
+  text-align: right;
+  display: block;
+  width: 50%;
 }
 
 .donation-list {
-    border: 1px solid #C5C5C5;
-    box-sizing: border-box;
-    margin: 20px;
+  border: 1px solid #c5c5c5;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
 .d-list {
-    max-height: 450px !important;
-    overflow-y: auto;
+  max-height: 450px !important;
+  overflow-y: auto;
 }
 
 .d-list::-webkit-scrollbar-thumb {
-    background: #4D80E4;
+  background: #4d80e4;
 }
 
 .d-list::-webkit-scrollbar-track {
-    background: #c1c1c1;
+  background: #c1c1c1;
 }
 
 .d-list::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 .donation-list h3 {
-    padding-left: 34px;
-    padding-top: 11px;
-    font-weight: bolder;
+  padding-left: 34px;
+  padding-top: 11px;
+  font-weight: bolder;
 }
 
 .donation {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 15px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0px 15px;
 }
 
 .donation p {
-    width: 33%;
+  width: 33%;
 }
 
-.donation-list hr{
-    margin: 0 auto !important;
+.donation-list hr {
+  margin: 0 auto !important;
 }
 
 #btn-edit {
-    background: #E7E7E7;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    outline: none;
-    border: none;
-    padding: 10px 50px;
-    font-weight: bold;
+  background: #e7e7e7;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  padding: 10px 50px;
+  font-weight: bold;
 }
 
 #btn-delete {
-    background: #F24444;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    outline: none;
-    border: none;
-    color: white;
-    padding: 10px 46px;
-    font-weight: bold;
+  background: #f24444;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 46px;
+  font-weight: bold;
 }
 
 .bukti-pengiriman {
-    border: 1px solid #C5C5C5;
-    box-sizing: border-box;
-    margin: 20px;
-    padding: 10px;
+  border: 1px solid #c5c5c5;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 10px;
 }
 
 .bukti-pengiriman p {
-    color: #8F8F8F;
-    font-size: 18px;
+  color: #8f8f8f;
+  font-size: 18px;
 }
 
 .bukti-pengiriman button {
-    background: #4D80E4;
-    color: white;
-    font-weight: bolder;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-    outline: none;
-    border: none;
-    padding: 8px 0px;
+  background: #4d80e4;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  padding: 8px 0px;
 }
 
 #btn-donate {
-    height: 49px;
-    outline: none;
-    border: none;
-    background: #F24444;
-    border-radius: 17px;
-    width: 100%;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
+  height: 49px;
+  outline: none;
+  border: none;
+  background: #f24444;
+  border-radius: 17px;
+  width: 100%;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 /* Modal */
 .agreement-modal {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0, 0.8);
-    position: fixed;
-    top: 0;
-    z-index: 2000;
-    visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  visibility: hidden;
 }
 
 .agreement-modal-content {
-    height: 720px;
-    width: 50%;
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
-    margin: 0 auto;
-    position: fixed;
-    top: 15%;
-    z-index: 2500;
-    left: 25%;
-    visibility: hidden;
+  height: 720px;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  top: 15%;
+  z-index: 2500;
+  left: 25%;
+  visibility: hidden;
 }
 
 .agreement-modal-content-header h1 {
-    padding: 20px;
-    margin: 0px;
-    z-index: 200;
+  padding: 20px;
+  margin: 0px;
+  z-index: 200;
 }
 
 .agreement-modal-content-content {
-    padding: 50px;
+  padding: 50px;
 }
 
 .agreement-modal-content-content textarea {
-    width: 100%;
-    height: 520px;
+  width: 100%;
+  height: 520px;
 }
 
 .agreement-modal-content-header button {
-    background-image: url("../Assets/icn-close.png");
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    z-index: 100;
-    cursor: pointer;
-    right: 15px;
-    top: 15px;
+  background-image: url("../Assets/icn-close.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  right: 15px;
+  top: 15px;
 }
 
 @media only screen and (max-width: 799px) {
-    .content-register-form {
-        width: 80%;
-    }
+  .content-register-form {
+    width: 80%;
+  }
 
-    #register-image {
-        width: 80%;
-    }
+  #register-image {
+    width: 80%;
+  }
 
-    #date-field {
-        width: 70%;
-    }
+  #date-field {
+    width: 70%;
+  }
 
-    .agreement-modal-content {
-        width: 80%;
-        left: 9%;
-    }
+  .agreement-modal-content {
+    width: 80%;
+    left: 9%;
+  }
+}
+
+.screenshot img {
+  vertical-align: middle;
+}
+
+.screenshot img:hover {
+  transform: scale(1.5);
+}
+
+.screenshot {
+  padding: 5px;
+}
+
+.box img {
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
 }
