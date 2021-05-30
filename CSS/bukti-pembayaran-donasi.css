@@ -23,3 +23,25 @@
   font-weight: bold;
   border-radius: 20px;
 }
+
+.screenshot img {
+  vertical-align: middle;
+}
+
+.screenshot img:hover {
+  transform: scale(1.5);
+}
+
+.screenshot {
+  padding: 5px;
+}
+
+.box img {
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
