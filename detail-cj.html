@@ -210,7 +210,7 @@
                         </div>
                     </div>
 
-                    <div style="text-align: center;">
+                    <div id="pd-action" style="text-align: center;">
                         <button id="btn-edit">UBAH POST</button><br><br>
                         <button id="btn-delete">HAPUS POST</button>
                     </div>
@@ -218,5 +218,20 @@
             </div>
 
         </main>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var emt = document.getElementById('pd-action')
+
+                if(document.getElementById('switch-checkbox').checked == false) {
+                    emt.style.visibility = 'visible';
+                    emt.style.height = '0px';
+                } else {
+                    emt.style.visibility = 'hidden';
+                    emt.style.height = 'auto';
+                }
+            })
+        </script> 
+        
     </body>
 </html>
