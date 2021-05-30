@@ -47,7 +47,7 @@
                     <div class="home-menu-inner">
                         <img src="Assets/ic-person-circle-fill.png">
                     </div>
-                    <h6>Profile</h6>
+                    <h6>Profil</h6>
                 </div>
             </a>
             <br><br>
@@ -70,7 +70,7 @@
                     <div class="home-menu-transparant-inner">
                         <img src="Assets/ic-reward.png">
                     </div>
-                    <h6>Rewards</h6>
+                    <h6>Hadiah</h6>
                 </div>
             </a>
 
@@ -83,7 +83,7 @@
                     <img src="Assets/ic-mail.png">donate.kuy@gmail.com
                 </div>
                 <span>
-                    Donate Kuy 2021. Hak cipta dilindungi Undang-undang
+                    Donate Kuy 2021. Hak cipta dilindungi undang-undang
                 </span>
             </div>
         </div>
@@ -114,14 +114,14 @@
             <div class="menus">
                 <a href="profile-donatur.html">
                     <div class="submenu">
-                        <img src="Assets/ic-profile.png"><span>Profile</span>
+                        <img src="Assets/ic-profile.png"><span>Profil</span>
                     </div>
                 </a>
                 <hr>
 
                 <a href="profile-history.html">
                     <div class="submenu">
-                        <img src="Assets/ic-history.png"><span class="active">Donation History ></span>
+                        <img src="Assets/ic-history.png"><span class="active">Riwayat Donasi ></span>
                     </div>
                 </a>
 
@@ -129,14 +129,14 @@
 
                 <a href="profile-notifications.html">
                     <div class="submenu">
-                        <img src="Assets/ic-notif-gray.png"><span>Notifications</span>
+                        <img src="Assets/ic-notif-gray.png"><span>Notifikasi</span>
                     </div>
                 </a>
 
                 <hr>
                 <a href="profile-change-password.html">
                     <div class="submenu">
-                        <img src="Assets/ic-password.png"><span>Password & Security</span>
+                        <img src="Assets/ic-password.png"><span>Kata Sandi</span>
                     </div>
                 </a>
                 <hr>
@@ -145,20 +145,26 @@
 
         <div class="content" style="background-color: white;">
             <div style="color: black; padding: 50px !important;">
-                <h1 style="font-weight: bolder;">Donation History</h1>
+                <h1 style="font-weight: bolder;">Riwayat Donasi</h1>
 
                 <div class="charity">
                     <div class="title">
                         <div class="filter">
                             <div style="margin-right: 20px;">
-                                <p class="content-text-2 d-inline">Search: </p>
+                                <p class="content-text-2 d-inline">Pencarian: </p>
                                 <input class="d-inline box-filter p-1 ps-2">
                             </div>
-                            <div>
-                                <p class="content-text-2 d-inline">Sort: </p>
-                                <div class="d-inline box-filter p-1 ps-2">
-                                    <p class="d-inline text-width ">Newly</p>
-                                    <img src="Assets/eva_arrow.png" alt="arrow">
+                            <div class="filter">
+                                <div>
+                                    <label for="sort" style="font-weight: bold;">Urutkan:</label>
+                                    <select id="sort" aria-label="Default select example" required class="px-2 py-1"
+                                        style="border-radius: 6px; border-color: #4d80e4;">
+                                        <option selected value="0" style="border-radius: 6px; border-color: #4d80e4;">Terbaru
+                                        </option>
+                                        <option value="1" style="border-radius: 6px; border-color: #4d80e4;">Populer
+                                        </option>
+                                        <option value="2" style="border-radius: 6px; border-color: #4d80e4;">Status</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
