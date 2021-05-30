@@ -103,3 +103,76 @@
     height: 64px !important;
     margin-left: 40px;
   }
+
+  /* Modal */
+.agreement-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  visibility: hidden;
+}
+
+.agreement-modal-content {
+  height: auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  top: 15%;
+  z-index: 2500;
+  left: 25%;
+  visibility: hidden;
+}
+
+.agreement-modal-content-header h1 {
+  padding: 20px;
+  margin: 0px;
+  z-index: 200;
+}
+
+.agreement-modal-content-content {
+  padding: 50px;
+}
+
+.agreement-modal-content-content textarea {
+  width: 100%;
+  height: 520px;
+}
+
+.agreement-modal-content-header button {
+  background-image: url("../Assets/icn-close.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  right: 15px;
+  top: 15px;
+}
+
+@media only screen and (max-width: 799px) {
+  .content-register-form {
+      width: 80%;
+  }
+
+  #register-image {
+      width: 80%;
+  }
+
+  #date-field {
+      width: 70%;
+  }
+
+  .agreement-modal-content {
+      width: 80%;
+      left: 9%;
+  }
+}

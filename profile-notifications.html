@@ -17,6 +17,7 @@
   
         <script src="JS/header.js"></script>
         <script src="JS/edit.js"></script>
+        <script src="JS/detail.js"></script>
 
         <title>DonateKUY</title>
     </head>
@@ -185,9 +186,9 @@
                         <div style="background: #4D80E4; box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);border-radius: 5px;text-align: center;color: white;padding: 3px 10px;">
                             <h3 style="font-weight: bolder;margin-top: 5px">Notifikasi</h3>
                         </div>
-                        <div class="notification-item-unread">
+                        <div id="tc-1" class="notification-item-unread" style="cursor: pointer;">
                             <div class="left-side" style="display: flex;">
-                                <div style="width: 12px; height: 12px;background-color: #4D80E4;border-radius: 50%;position: relative; top:50%;"></div>
+                                <div id="sml-icn1" style="width: 12px; height: 12px;background-color: #4D80E4;border-radius: 50%;position: relative; top:50%;"></div>
                                 <img src="Assets/ic-rp.png" style="margin-top: 10px;position: relative; top:18%;">
                             </div>
                             <div class="paragraph-side">
@@ -199,7 +200,7 @@
                             <img src="Assets/ic-arrow-gray.png" style="width: 48px !important; height: 48px !important;position: relative !important; margin-top: 30px !important;">
                         </div>
                         <hr style="margin: 0 !important;">
-                        <div class="notification-item-unread">
+                        <div class="notification-item-unread" style="cursor: pointer;">
                             <div class="left-side" style="display: flex;">
                                 <div style="width: 12px; height: 12px;background-color: #4D80E4;border-radius: 50%;position: relative; top:50%;"></div>
                                 <img src="Assets/ic-rp.png" style="margin-top: 10px;position: relative; top:18%;">
@@ -227,6 +228,23 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="agreement-modal"></div>
+
+            <div class="agreement-modal-content">
+                <div class="agreement-modal-content-header">
+                    <button id="close-modal-button"></button>
+                    <h1>Korban Banjir Kota Cirebon</h1>
+                    <div style="margin: 0 auto; width: 100% !important;background-color: #e6e6e6;height: 4px;"></div>
+                </div>
+                <div class="agreement-modal-content-content">
+                    <p>
+                        Donasi dari anda sudah kami terima, kami ucapkan terima kasih.
+                        <br><br>
+                        <i>2 menit yang lalu</i>
+                    </p>
                 </div>
             </div>
 
