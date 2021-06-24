@@ -1,6 +1,7 @@
 'use strict';
 $(function() {
     var $clickArea = $('#btn-show-receipt');
+    var $btn = $('#btn-deposit');
     $clickArea.click(function() {
         $backgroundArea.css(
             {
@@ -13,6 +14,20 @@ $(function() {
             }
         );
     });
+
+    $btn.click(function() {
+        $backgroundArea.css(
+            {
+                "visibility": "visible"
+            }
+        );
+        $('.agreement-modal-content').css(
+            {
+                "visibility": "visible"
+            }
+        );
+    });
+
 
     var $tc = $('#tc-1');
     var $tc2 = $('#tc-2');
