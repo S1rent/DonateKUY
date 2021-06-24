@@ -352,3 +352,21 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 1655px) {
+  .header .search-bar {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .header .search-bar {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1272px) {
+  .header .search-bar {
+    width: 10%;
+  }
+}

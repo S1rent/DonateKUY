@@ -119,10 +119,14 @@
                     <div class="profile-container" style="display: block !important; text-align: center !important;">
                         <div style="width: auto;">
                             <input type="file" id="imgupload" style="display:none"/> 
-                            <img id="avatar" src="Assets/img-person.png" style="width: 220px !important; height: 220px !important; cursor: pointer;">
-                            <div id="pencil-icon" style="position: absolute; background: #4D80E4; width: 30px; height: 30px; border-radius: 50%; right: 33%;margin-top: -50px;">
-                                <img src="Assets/ic-pencil.png" style="width: 20px; height: 20px;cursor: pointer;">
-                            </div><br><br>
+                            <div style="text-align: center !important; margin: 0 auto !important;">
+                                <img id="avatar" src="Assets/img-person.png" style="width: 220px !important; height: 220px !important; cursor: pointer;z-index: 100;">
+                                <div style="width: 30px; height: 30px;margin: 0 auto;">
+                                    <div id="pencil-icon" style="background: #4D80E4; width: 30px; height: 30px; border-radius: 50%;margin-left: 50px;margin-top: -50px;z-index: 200;position:absolute">
+                                        <img src="Assets/ic-pencil.png" style="width: 20px; height: 20px;cursor: pointer;">
+                                    </div><br><br>
+                                </div>
+                            </div>
                         </div>
                         <div class="edit-profile-section" style="text-align: left;">
                             <div style="display: flex;">
@@ -139,8 +143,10 @@
 
                             <div>
                                 <label for="name" style="color: #A09F9F; font-weight: bolder; padding-bottom: 10px;">Kata Sandi</label><br>
-                                <img id="show-password" style="position: absolute; right: 80px;margin-top: 8px;cursor: pointer;" src="Assets/icn-show-password.png">
-                                <input id="password-field" type="password">
+                                <div>
+                                    <input id="password-field" type="password">
+                                    <img id="show-password" style="position: absolute;margin-top: 8px;cursor: pointer;margin-left: -50px;" src="Assets/icn-show-password.png">
+                                </div>
                                 <br><br>
                             </div>
                                 
