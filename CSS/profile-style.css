@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background: white;
+  min-width: 1920px !important;
 }
 
 a {
@@ -153,6 +154,7 @@ progress::-webkit-progress-bar {
   width: 100%;
   z-index: 2000;
   background-color: white;
+  min-width: 1903px !important;
 }
 
 .blue-separator-line {
@@ -235,6 +237,7 @@ progress::-webkit-progress-bar {
   height: 100%;
   border: 1px solid #dedede;
   background-color: #fdfcfc;
+  z-index: 2000 !important;
 }
 
 .submenu {

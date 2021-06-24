@@ -1,3 +1,10 @@
+html, main, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1920px !important;
+}
+
 .content-wrapper {
   padding: 40px 80px;
 }
@@ -211,6 +218,20 @@ progress::-webkit-progress-bar {
 }
 
 .agreement-modal-content {
+  height: auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  top: 15%;
+  z-index: 2500;
+  left: 25%;
+  visibility: hidden;
+}
+
+.agreement-modal-content-2 {
   height: 720px;
   width: 50%;
   background-color: white;
